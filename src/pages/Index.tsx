@@ -16,6 +16,8 @@ const Index = () => {
   return (
     <div className={`min-h-screen ${isDarkMode ? 'dark' : ''}`}>
       <Header />
+      
+      {/* Hero section with its own particle background */}
       <Hero />
       
       {/* All other sections get the particle background */}
